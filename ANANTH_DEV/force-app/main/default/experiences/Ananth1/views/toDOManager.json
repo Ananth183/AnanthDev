@@ -1,0 +1,75 @@
+{
+  "appPageId" : "f7249dd3-392c-4d1d-afa0-7c63acbfe2d4",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "id" : "8adb3a64-141f-48a9-97f1-9f0c8ae36830",
+  "label" : "To DO Manager",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "sectionConfig" : "{\"UUID\":\"731182da-6979-4355-8b7f-b1425cd6da63\",\"columns\":[{\"UUID\":\"12980162-1828-427b-b3a0-f3f23ab80153\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "731182da-6979-4355-8b7f-b1425cd6da63",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:toDoManager",
+          "id" : "a70f062d-3615-49ca-a932-bb064ab9aea4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "12980162-1828-427b-b3a0-f3f23ab80153",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "sectionConfig" : "{\"UUID\":\"2898ccc0-546c-42fe-9647-789b26bbb343\",\"columns\":[{\"UUID\":\"eddc650e-36f8-450b-a010-62bd3e3a3e42\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "2898ccc0-546c-42fe-9647-789b26bbb343",
+      "regions" : [ {
+        "id" : "eddc650e-36f8-450b-a010-62bd3e3a3e42",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "33362c41-d653-4d47-aef4-bc488b28a739",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "To DO Manager",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "1f4d6919-36d0-4074-8625-13f9c05aaa7f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "39e85eba-f695-4078-a677-7db6725a385c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-to-do-manager"
+}

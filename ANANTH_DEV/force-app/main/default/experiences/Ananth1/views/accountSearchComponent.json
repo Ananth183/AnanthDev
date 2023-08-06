@@ -1,0 +1,58 @@
+{
+  "appPageId" : "f7249dd3-392c-4d1d-afa0-7c63acbfe2d4",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "id" : "e5b36b9b-2d26-4ab6-b7f3-8db06d5bb948",
+  "label" : "Account Search Component",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "sectionConfig" : "{\"UUID\":\"82eed74d-f992-4c46-bac3-6ee19d7dc443\",\"columns\":[{\"UUID\":\"0ebf52b2-0c81-4c12-b4bc-2457d27be88b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "82eed74d-f992-4c46-bac3-6ee19d7dc443",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:accountHome",
+          "id" : "0f5e3ad8-e8d8-4812-83f5-36aa2057a0b6",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "0ebf52b2-0c81-4c12-b4bc-2457d27be88b",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "2edd17b8-cfc5-4c51-a8da-46698abe78fd",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "Account Search Component",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "c24f6c91-ad0e-410b-8cc2-093d43c50dcd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bca12732-e806-4c40-87f1-8ba373ac8de1",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-account-search-component"
+}

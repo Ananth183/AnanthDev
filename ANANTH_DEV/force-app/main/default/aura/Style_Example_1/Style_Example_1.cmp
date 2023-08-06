@@ -1,0 +1,23 @@
+<aura:component >
+	<div>
+        This is Line 1<br/>    
+        This is Line 2<br/>    
+        This is Line 3<br/>    
+    </div>
+    
+    
+    <div class = "box">
+        This is Line 1<br/>    
+        This is Line 2<br/>    
+        This is Line 3<br/>    
+    </div>
+    
+    
+    <div class = "redbox">
+        This is Line 1<br/>    
+        This is Line 2<br/>    
+        This is Line 3<br/>    
+    </div>
+    
+    
+</aura:component>

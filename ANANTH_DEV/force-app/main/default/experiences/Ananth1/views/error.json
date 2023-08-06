@@ -1,0 +1,60 @@
+{
+  "appPageId" : "f7249dd3-392c-4d1d-afa0-7c63acbfe2d4",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "id" : "ddf50040-2229-452e-bf37-acbde7e9fe66",
+  "label" : "Error",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "sectionConfig" : "{\"UUID\":\"fe85c478-6e4a-4239-baf9-ac0e1b06a879\",\"columns\":[{\"UUID\":\"2d743619-ce4b-4cf9-a381-375107c93014\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "fe85c478-6e4a-4239-baf9-ac0e1b06a879",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\">Invalid Page</p>"
+          },
+          "componentName" : "community_builder:richTextEditor",
+          "id" : "e8427d27-f1b8-42a9-a19d-8817896cf888",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "2d743619-ce4b-4cf9-a381-375107c93014",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "b0e0b601-b7ea-4d6f-b0f4-de384ddb5591",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "Error",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "f08bbb7c-c9e9-4b96-af04-9aff2f3969a7",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0bec9235-f8c0-43f8-9f3e-6d64c3f562d2",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "error"
+}

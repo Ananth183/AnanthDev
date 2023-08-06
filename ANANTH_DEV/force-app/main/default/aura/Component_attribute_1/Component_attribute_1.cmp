@@ -1,0 +1,11 @@
+<aura:component >
+    <aura:attribute name = "empName" type="String"/>
+    <aura:attribute name="exp" type="Decimal" default = "3"/>
+    <aura:attribute name = "salary" type = "decimal" />
+    <aura:attribute name = "City" type = "String" description = "Name of Employee City"/>
+    
+    Employee: {!v.empName} <br/><br/>
+    Experience: {!v.exp} <br/><br/>
+    Salary: {!v.salary} <br/><br/>
+    City: {!v.City} <br/><br/>
+</aura:component>

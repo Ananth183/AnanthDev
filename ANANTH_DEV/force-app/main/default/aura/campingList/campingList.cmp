@@ -1,0 +1,79 @@
+<aura:component>
+    
+    <aura:attribute name = "items" type = "Camping_Item__c[]"/>
+    <aura:attribute name = "newItem" type = "Camping_Item__c"
+                    default="{
+                             'sObjectType' : 'camping_Item__c',  
+                             'Name': '',
+                             'Quantity__c' : 0,
+                             'Price__c' : 0,
+                             'Packed__c': false
+                             }"/>
+    
+    <lightning:layout>
+        <lightning:layoutItem padding= "around-small" size = "6">
+            <div aria-labelledby="newcampingform">
+                <fieldset class="slds-box slds-theme--default slds-container--small">
+                    
+                    
+                    <legend id="newcampingform" class="slds-text-heading-small slds-p-vertical--medium">          
+                        Camping List
+                    </legend>
+                    
+                    
+                    
+                    <form class="slds-form-stacked">
+                        <lightning:input aura:id="newcampingform"
+                                         label="Name"
+                                         name="itemname"
+                                         required="true"
+                                         value="{!v.newItem.Name}"
+                                         messageWhenvalueMissing="You need to write name"/>
+                        <lightning:input aura:id="newcampingform"
+                                         label="Price"
+                                         required="true"
+                                         type="number"
+                                         formatter="currency"
+                                         step="1"
+                                         name="itemprice"
+                                         value="{!v.newItem.Price__c}"
+                                         messageWhenvalueMissing="You need to write Price"/>
+                        <lightning:input aura:id="newcampingform"
+                                         label="Quantity"
+                                         required="true"
+                                         type="number"
+                                         min="1"
+                                         step="1"
+                                         name="itemquantity"
+                                         value="{!v.newItem.Quantity__c}"
+                                         messageWhenvalueMissing="You need to write Quantity"/>
+                        <lightning:input type="checkbox"
+                                         aura:id="newcampingform"
+                                         label="Packed?"
+                                         name="itempacked"
+                                         checked = "{!v.newItem.Packed__c}"
+                                         value="{!v.newItem.Packed__c}"
+                                         messageWhenvalueMissing="You need to check if its packed"/>
+                        <lightning:button 
+                                          label="Create Item"
+                                          class="slds-m-top-medium"
+                                          variant="brand"
+                                          onclick="{!c.clickCreateItem}"/>     
+                    </form>  
+                    
+                    
+                    
+                    <div class="slds-card slds-p-top--medium">
+                        <header>
+                            <h3 class = "slds-text-heading--small"> ITEMS </h3>
+                        </header>
+                        <aura:iteration items="{!v.items}" var="camp">
+                            <c:CampingListItem item="{!camp}"/>
+                        </aura:iteration>
+                        
+                    </div>   
+                </fieldset>
+            </div>            
+        </lightning:layoutItem>
+    </lightning:layout>      
+</aura:component>

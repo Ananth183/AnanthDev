@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "8adb3a64-141f-48a9-97f1-9f0c8ae36830",
+  "appPageId" : "f7249dd3-392c-4d1d-afa0-7c63acbfe2d4",
+  "configurationTags" : [ ],
+  "id" : "130f81b7-6a6f-4c26-b1f2-1fd14f0fa07a",
+  "label" : "To DO Manager",
+  "routeType" : "custom-to-do-manager",
+  "type" : "route",
+  "urlPrefix" : "to-do-manager"
+}

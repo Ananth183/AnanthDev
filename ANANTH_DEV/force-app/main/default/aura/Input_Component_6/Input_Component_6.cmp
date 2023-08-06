@@ -1,0 +1,27 @@
+<aura:component >
+    <aura:attribute name = "Amount" type="Decimal"/>
+    <aura:attribute name = "Years" type="Decimal"/>
+    <aura:attribute name = "Rate" type="Decimal"/>
+    <aura:attribute name = "Intrest" type="Decimal"/>
+    
+    <div class="box">
+     	<lightning:card title = "Intrest Calculator" iconName="utility:company">
+            <br/><br/>
+            <lightning:input label = "Amount" type="number" value = "{!v.Amount}"/>
+            <br/><br/>
+            <lightning:input label = "Years" type="number" value = "{!v.Years}"/>
+            <br/><br/>
+            <lightning:input label = "Rate" type="number" value = "{!v.Rate}"/>
+            <br/><br/>
+            <lightning:input label = "Intrest" type="number" value = "{!v.Intrest}"/>
+            <br/><br/>
+            
+            <aura:set attribute="footer">
+            	<lightning:button label = "Calculate" onclick ="{!c.calculate}"/>
+        		<lightning:button label = "Reset" onclick ="{!c.reset}"/>
+            </aura:set>
+            
+            
+		</lightning:card>       
+    </div>
+</aura:component>

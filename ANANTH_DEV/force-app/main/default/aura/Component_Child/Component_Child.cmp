@@ -1,0 +1,8 @@
+<aura:component >
+    <aura:attribute name = "description" type = "string" default = "This is description"/>
+    
+    <br/><br/>
+    
+    {!v.description}
+     
+</aura:component>

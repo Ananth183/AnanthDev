@@ -1,0 +1,45 @@
+{
+  "appPageId" : "822cdb22-7f14-4b0a-8744-9f843eac522c",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "id" : "817f8fa9-8a21-4a1e-ae1a-39217a8e4ab4",
+  "label" : "Service Not Available",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"28895d63-38eb-428a-8530-d6940f6d1bdf\",\"columns\":[{\"UUID\":\"a7e34a22-4b3e-48cf-966c-b1811e580317\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "28895d63-38eb-428a-8530-d6940f6d1bdf",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"display: flex; align-items: center; flex-direction: column; margin: 60px 25px 40px 25px;\">\n\t<div style=\"background: url(assets/img/serviceNotAvailable.svg) center no-repeat; background-size: contain; height: 331px; width: 100%; max-width: 538px;\"></div>\n</div>\n<div style=\"margin: 0 25px; text-align: center;\">\n\t<h1><b style=\"font-size: 2em\">Looks like the site is temporarily unavailable</b></h1>\n\t<br/>\n\t<p><span style=\"font-size: 1.5em;\">Please try again in a bit.</span></p>\n</div>"
+          },
+          "componentName" : "community_builder:htmlEditor",
+          "id" : "1b5f8c6b-cf02-412d-a2fd-d5168fcf1b81",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a7e34a22-4b3e-48cf-966c-b1811e580317",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "7f773f99-7494-4c92-b4f8-6444ae15f119",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "ServiceNotAvailable",
+  "type" : "view",
+  "viewType" : "service-not-available"
+}

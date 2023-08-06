@@ -1,0 +1,12 @@
+.account-tile {
+    border: 1px solid #d2955d;
+    border-radius: .25rem;
+    display: block;
+}
+.account-silhouette {
+    height: 100px;
+}
+.accountDetail{
+    color:coral;
+    font-weight: bold;
+}

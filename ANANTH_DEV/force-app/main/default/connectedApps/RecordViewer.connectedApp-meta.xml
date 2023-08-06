@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>ananth12731@gmail.com</contactEmail>
+    <label>RecordViewer</label>
+    <oauthConfig>
+        <callbackUrl>https://localhost:8443/oauth-redirect</callbackUrl>
+        <consumerKey>3MVG9n_HvETGhr3BDh5gMdu92Bv1vibFliOUlPDSxfIHr7hiOZhsDOlkKI6WUw7q4y8VZH3kX7rS_Cs3nv18e</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

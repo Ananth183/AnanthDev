@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "e5b36b9b-2d26-4ab6-b7f3-8db06d5bb948",
+  "appPageId" : "f7249dd3-392c-4d1d-afa0-7c63acbfe2d4",
+  "configurationTags" : [ ],
+  "id" : "b03832da-6736-4f74-bb24-5cd1c6745e9b",
+  "label" : "Account Search Component",
+  "routeType" : "custom-account-search-component",
+  "type" : "route",
+  "urlPrefix" : "account-search-component"
+}

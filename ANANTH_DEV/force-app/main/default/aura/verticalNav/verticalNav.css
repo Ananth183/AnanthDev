@@ -1,0 +1,27 @@
+.THIS {
+}
+
+
+.THIS.navigation{
+    color:red;
+}
+
+.THIS.table{
+    display: inline;   /* Allow the centering to work */
+	margin: 0 auto;
+    background-color:#eeeeee;
+}
+
+
+.THIS.List {
+    display: inline;
+}
+
+
+.THIS.Table.List.ListItem{
+    min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+    display: inline;
+    align-items:center;
+}
