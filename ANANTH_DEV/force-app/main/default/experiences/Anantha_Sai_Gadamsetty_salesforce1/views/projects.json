@@ -1,0 +1,52 @@
+{
+  "appPageId" : "822cdb22-7f14-4b0a-8744-9f843eac522c",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "id" : "e5734d6a-b144-4a18-8b3b-d80e8a3b83dd",
+  "label" : "Projects",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"3f30a419-b20e-4a8e-bfe2-0a78b30320eb\",\"columns\":[{\"UUID\":\"85a86dc2-0d14-43c8-96d5-80e4037d6b0a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "3f30a419-b20e-4a8e-bfe2-0a78b30320eb",
+      "regions" : [ {
+        "id" : "85a86dc2-0d14-43c8-96d5-80e4037d6b0a",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "e9a9b1ac-0800-4c16-877c-d62bab9a972e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "Projects",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "10277ba8-0e79-46a6-8305-9be8eca450df",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e4b8f211-5c31-4e07-8d31-e43ee88f6ed7",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-projects"
+}

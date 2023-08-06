@@ -1,0 +1,76 @@
+<template>
+    <div class="slds-m-around_large">
+        <lightning-spinner if:true={isLoadingSpinner} alternative-text="Loading..." variant="brand">
+        </lightning-spinner>
+    </div>
+ 
+        <lightning-combobox name="Object" label="Object" value={value} options={objects} onchange={objectSelection}> </lightning-combobox>
+        
+       
+    
+    <lightning-card  title="Custom Record Save Form">
+        <div class="slds-box slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none">
+            <lightning-layout multiple-rows>
+                <lightning-layout-item size="12" padding="around-small">
+                    <div class="slds-p-around_medium">
+                        <lightning-input type="text" name="objectApiName" label="Enter Object API Name" required="true"></lightning-input>
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item size="6" padding="around-small">
+                    <div class="slds-p-around_medium">
+                        <lightning-input type="text" value={fieldApi1} name="fieldApi1" label="Enter Field API Name"></lightning-input>
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item size="6" padding="around-small">
+                    <div class="slds-p-around_medium">
+                        <lightning-input type="text" name="fieldValue1" label="Enter Field Value"></lightning-input>
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item size="6" padding="around-small">
+                    <div class="slds-p-around_medium">
+                        <lightning-input type="text" value={fieldApi2} name="fieldApi2" label="Enter Field API Name"></lightning-input>
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item size="6" padding="around-small">
+                    <div class="slds-p-around_medium">
+                        <lightning-input type="text" name="fieldValue2" label="Enter Field Value"></lightning-input>
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item size="6" padding="around-small">
+                    <div class="slds-p-around_medium">
+                        <lightning-input type="text" value={fieldApi3} name="fieldApi3" label="Enter Field API Name"></lightning-input>
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item size="6" padding="around-small">
+                    <div class="slds-p-around_medium">
+                        <lightning-input type="text" name="fieldValue3" label="Enter Field Value"></lightning-input>
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item size="6" padding="around-small">
+                    <div class="slds-p-around_medium">
+                        <lightning-input type="text" value={fieldApi4} name="fieldApi4" label="Enter Field API Name"></lightning-input>
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item size="6" padding="around-small">
+                    <div class="slds-p-around_medium">
+                        <lightning-input type="text" name="fieldValue4" label="Enter Field Value"></lightning-input>
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item size="6" padding="around-small">
+                    <div class="slds-p-around_medium">
+                        <lightning-input type="text" value={fieldApi5} name="fieldApi5" label="Enter Field API Name"></lightning-input>
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item size="6" padding="around-small">
+                    <div class="slds-p-around_medium">
+                        <lightning-input type="text" name="fieldValue5" label="Enter Field Value"></lightning-input>
+                    </div>
+                </lightning-layout-item>
+            </lightning-layout>
+            <div class="slds-text-align_center">
+                <lightning-button label="Cancel" title="Non-primary action" class="slds-m-left_x-small" onclick={handleCancel}></lightning-button>
+                <lightning-button variant="brand" label="Save" title="Primary action" class="slds-m-left_x-small" onclick={handleRecordSave}></lightning-button>
+            </div>
+        </div>    
+    </lightning-card>
+</template>

@@ -1,0 +1,4 @@
+<aura:component >
+    <lightning:button label = "Submit" onclick="{!c.show}"/>
+    
+</aura:component>

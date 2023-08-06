@@ -1,0 +1,15 @@
+<aura:component >
+    <aura:attribute name = "aval" type="Integer"/>
+    <aura:attribute name = "bval" type="Integer"/>
+    <aura:attribute name = "cval" type="Integer"/>
+    <aura:handler name="init" value = "{!this}" action="{!c.invoke}"/>
+    
+    	<br/><br/>
+    	aval: {!v.aval}
+        <br/><br/>
+    	bval: {!v.bval}
+        <br/><br/>
+    	cval: {!v.cval}
+        <br/><br/>
+    
+</aura:component>

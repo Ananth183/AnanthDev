@@ -1,0 +1,13 @@
+<aura:component extends="forceCommunity:navigationMenuBase">
+   <div class = "table">
+       <ul onclick="{!c.onClick}" class="List">
+           <aura:iteration items="{!v.menuItems}" var="item">
+               <li class="{!item.active ? 'slds-is-active' : ''}">
+                   <a href="javascript:void(0);" data-menu-item-id="{!item.id}" class="ListItem">
+                       {!item.label}<br/><br/>
+                   </a>
+               </li>
+           </aura:iteration>
+       </ul>
+   </div>
+</aura:component>

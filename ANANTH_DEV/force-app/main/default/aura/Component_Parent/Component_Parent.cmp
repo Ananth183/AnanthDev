@@ -1,0 +1,14 @@
+<aura:component >
+    <aura:attribute name = "firstName" type="string" default = "Ravi" />
+    <aura:attribute name = "lastname" type = "string" default = "kumar"/> 
+    <h1>Name: {!v.empName}</h1>
+    
+    <c:Component_Child/>
+    
+   
+ 
+    <c:Component_Child description = "Anantha Sai gadamsetty"/>
+    
+    <c:Component_Child description = "{!v.firstName + v.lastname}"/>
+    
+</aura:component>
